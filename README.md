@@ -31,6 +31,7 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 ![iRobot Create Pinout](http://postimg.org/image/hwvs3s8z9/ "iRobot Create Pinout")
 * I made the following pin connections:
 Arduino Pin Number | Create Pin Number
+--- | --- | ---
      Arduino pin 8 | Create pin 2      
      Arduino pin 9 | Create pin 1
      Arduino Vin | Create pin 8
