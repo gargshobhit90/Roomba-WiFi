@@ -75,6 +75,6 @@ WEP or WPA, change the Wifi.begin() call accordingly.
 
 
 #License
-This project is released as an open source project under [The MIT License](Roomba-WiFi/LICENSE).
+This project is released as an open source project under [The MIT License](https://github.com/gargshobhit90/Roomba-WiFi/blob/master/LICENSE).
 
 Copyright (C) 2015 Shobhit Garg. All rights reserved.
