@@ -11,32 +11,32 @@ A short video of the functioning setup can be seen [on youtube](https://youtu.be
 * Bomb diffusal, or related applications, where human presence is not desired and you wish the robot to take the chance.
 * Hotels: Drive a room service delivery cart
 * Hospitals: Carry supplies to patient's room
-* [with camera streaming capability] Home security robot 
+* Home security robot [with camera streaming capability]
 
 With further enhancements, like the addition of camera streaming or a robotic arm on the roomba, this device can have significantly important industrial usage.
 
 
-#Circuit
+##Circuit
 
 * Arduino Uno
 * WiShield 
 * iRobot Roomba with Create module
 
-#Software
+##Software
 
 I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would remain the same across platforms.
 
 For connecting wirelessly with the Arduino/Roomba, I used telnet on Terminal in MacOS.
 
 
-#Connections
+##Connections
 
 * The WiShield attaches directly on top of the Arduino Uno. 
 * Make sure not to use pins 10, 11 or 12. These are already used. 
 * Create Pin 8 drives the signal at 5V. This is needed. 
 * To make the setup truly mobile, once the Arduino has been programmed from a computer, powered it using a 9V battery. 
 
-##Pin Connections
+###Pin Connections
 
 | Arduino       | Create        | 
 | ------------- | -------------:|
@@ -49,7 +49,7 @@ For connecting wirelessly with the Arduino/Roomba, I used telnet on Terminal in 
 
 ![Arduino Connections](http://s15.postimg.org/h8s0b0mq3/arduino_connections.png "Arduino Uno connections") 
 
-#Instructions 
+##Instructions 
 
 0. Make sure Roomba is turned off. 
 1. Compile this sketch and run the Serial monitor. Arduino, with
@@ -62,7 +62,7 @@ Note: At this point, Arduino and your PC can be disconnected.
 5. Play!
 
 
-#Controls
+##Controls
 
 | Key    | Direction |
 | ------ | ---------:|
@@ -73,12 +73,12 @@ Note: At this point, Arduino and your PC can be disconnected.
 | q      | stop      |
 
 
-#Note
+##Note
 This example is written for a network using WPA encryption. For
 WEP or WPA, change the Wifi.begin() call accordingly.
 
 
-#License
+##License
 This project is released as an open source project under [The MIT License](https://github.com/gargshobhit90/Roomba-WiFi/blob/master/LICENSE).
 
 Copyright (C) 2015 Shobhit Garg. All rights reserved.
