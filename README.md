@@ -2,11 +2,7 @@
  
 Control the movement of an iRobot Roomba using any device on the same WiFi connection. Roomba is connected to an Arduino Uno with WiShield that connects to the internet. Once a telnet connection with the Arduino is established, you can control the Roomba's movements without the hassles of cables! Controls are defined accoring to the standard WASD key combination.
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
 
 #Applications
 
@@ -36,12 +32,13 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 * The Roomba pinout looks like this: 
 ![iRobot Create Pinout](http://postimg.org/image/hwvs3s8z9/ "iRobot Create Pinout")
 * I made the following pin connections:
-Arduino Pin Number | Create Pin Number
---- | --- | ---
-     Arduino pin 8 | Create pin 2      
-     Arduino pin 9 | Create pin 1
-     Arduino Vin | Create pin 8
-     Arduino GND | Create pin 14
+| Arduino Pin Number | Create Pin Number | 
+| ------------------ |:-----------------:|
+| Arduino pin 8 | Create pin 2 |
+| Arduino pin 9 | Create pin 1 |
+| Arduino Vin | Create pin 8 |
+| Arduino GND | Create pin 14 |
+
 * Create Pin 8 drives the signal at 5V. This is needed. 
 * To make the setup truly mobile, once the Arduino has been programmed from a computer, I
 powered it using a 9V battery. 
