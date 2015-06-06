@@ -43,7 +43,7 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 
 ![iRobot Create Pinout](http://s2.postimg.org/bvy36pmd5/roomba_create_pinout.png "iRobot Create Pinout")
 
-![Arduino Connections](http://s4.postimg.org/9c4w6awu5/arduino_connections.png "Arduino Uno connections") 
+![Arduino Connections](http://s15.postimg.org/h8s0b0mq3/arduino_connections.png "Arduino Uno connections") 
 
 #Instructions 
 
