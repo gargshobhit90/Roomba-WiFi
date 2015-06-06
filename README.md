@@ -31,26 +31,19 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 * Make sure not to use pins 10, 11 or 12. These are already used. 
 * The Roomba pinout looks like this: 
 ![iRobot Create Pinout](http://postimg.org/image/hwvs3s8z9/ "iRobot Create Pinout")
+* Create Pin 8 drives the signal at 5V. This is needed. 
+* To make the setup truly mobile, once the Arduino has been programmed from a computer, powered it using a 9V battery. 
 
 ##Pin Connections
 
-| Arduino       | Create           | 
+| Arduino       | Create        | 
 | ------------- | -------------:|
 | Pin 8         | Pin 2         | 
-| col 2 is      | centered      |   
-| zebra stripes | are neat      |   
+| Pin 9         | Pin 1         |   
+| Vin           | Pin 8         |   
+| GND           | Pin 14        |   
 
-I made the following pin connections:
-| Arduino Pin Number | Create Pin Number | 
-| ------------------ | -----------------:|
-| Arduino pin 8 | Create pin 2 |
-| Arduino pin 9 | Create pin 1 |
-| Arduino Vin | Create pin 8 |
-| Arduino GND | Create pin 14 |
 
-* Create Pin 8 drives the signal at 5V. This is needed. 
-* To make the setup truly mobile, once the Arduino has been programmed from a computer, I
-powered it using a 9V battery. 
 
 
 #Instructions 
