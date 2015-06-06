@@ -41,7 +41,7 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 | Vin           | Pin 8         |   
 | GND           | Pin 14        |   
 
-![iRobot Create Pinout](http://postimg.org/image/hwvs3s8z9/ "iRobot Create Pinout")
+![iRobot Create Pinout](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "iRobot Create Pinout")
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
