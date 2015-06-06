@@ -33,6 +33,13 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 ![iRobot Create Pinout](http://postimg.org/image/hwvs3s8z9/ "iRobot Create Pinout")
 
 ##Pin Connections
+
+| Tables        | Are           | 
+| ------------- | -------------:|
+| col 3 is      | right-aligned | 
+| col 2 is      | centered      |   
+| zebra stripes | are neat      |   
+
 I made the following pin connections:
 | Arduino Pin Number | Create Pin Number | 
 | ------------------ | -----------------:|
