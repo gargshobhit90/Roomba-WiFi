@@ -28,18 +28,19 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 * The WiShield attaches directly on top of the Arduino Uno. 
 * Make sure not to use pins 10, 11 or 12. These are already used. 
 * The Roomba pinout looks like this: 
-![Roomba Create Pinout](http://postimg.org/image/hwvs3s8z9/ "iRobot Create Pinout")
+![iRobot Create Pinout](http://postimg.org/image/hwvs3s8z9/ "iRobot Create Pinout")
 * I made the following pin connections:
-     Arduino pin 8  --->  Create pin 2      
-     Arduino pin 9  --->  Create pin 1
-     Arduino Vin    --->  Create pin 8
-     Arduino GND    --->  Create pin 14
+Arduino Pin Number | Create Pin Number
+     Arduino pin 8 | Create pin 2      
+     Arduino pin 9 | Create pin 1
+     Arduino Vin | Create pin 8
+     Arduino GND | Create pin 14
 * Create Pin 8 drives the signal at 5V. This is needed. 
 * To make the setup truly mobile, once the Arduino has been programmed from a computer, I
 powered it using a 9V battery. 
 
 
-#Instructions: 
+#Instructions 
 
 0. Make sure Roomba is turned off. 
 1. Compile this sketch and run the Serial monitor. Arduino, with
@@ -53,12 +54,12 @@ Note: At this point, Arduino and your PC can be disconnected.
 
 
 #Controls
-Key : Direction
-  w : forward
-  s : backward
-  a : left
-  d : right
-  q : stop
+Key | Direction
+  w | forward
+  s | backward
+  a | left
+  d | right
+  q | stop
 
 
 #Note
