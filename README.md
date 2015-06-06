@@ -28,16 +28,12 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 #Connections
 
 * The WiShield attaches directly on top of the Arduino Uno. 
-| Tables        | Are           | 
-| ------------- | -------------:|
-| col 3 is      | right-aligned | 
-| col 2 is      | centered      |   
-| zebra stripes | are neat      |   
-
 * Make sure not to use pins 10, 11 or 12. These are already used. 
 * The Roomba pinout looks like this: 
 ![iRobot Create Pinout](http://postimg.org/image/hwvs3s8z9/ "iRobot Create Pinout")
-* I made the following pin connections:
+
+##Pin Connections
+I made the following pin connections:
 | Arduino Pin Number | Create Pin Number | 
 | ------------------ | -----------------:|
 | Arduino pin 8 | Create pin 2 |
