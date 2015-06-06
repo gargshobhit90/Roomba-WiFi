@@ -34,9 +34,9 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 
 ##Pin Connections
 
-| Tables        | Are           | 
+| Arduino       | Create           | 
 | ------------- | -------------:|
-| col 3 is      | right-aligned | 
+| Pin 8         | Pin 2         | 
 | col 2 is      | centered      |   
 | zebra stripes | are neat      |   
 
