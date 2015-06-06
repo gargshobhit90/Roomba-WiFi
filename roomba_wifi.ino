@@ -222,39 +222,39 @@ void printWifiStatus() {
  
 void goForward() {
   ledBlink(); // say we're starting 
-  mySerial.write(137);   // DRIVE
+  mySerial.write(137);   
   mySerial.write((byte)0x00);   
-  mySerial.write(0xc8); // 0x00c8 == 200
-  mySerial.write(0x80); //128
-  mySerial.write((byte)0x00); //0
+  mySerial.write(0xc8); 
+  mySerial.write(0x80); 
+  mySerial.write((byte)0x00); 
   Serial.print("Forward!");
 }
 void goBackward() {
   ledBlink(); // say we're starting 
-  mySerial.write(137);   // DRIVE
-  mySerial.write(0xff);   // 0xff38 == -200
+  mySerial.write(137);   
+  mySerial.write(0xff);  
   mySerial.write(0x38);
   mySerial.write(0x80);
   mySerial.write((byte)0x00);
 }
 void spinLeft() {
-  mySerial.write(137);   // DRIVE
-  mySerial.write((byte)0x00);   // 0x00c8 == 200
+  mySerial.write(137);   
+  mySerial.write((byte)0x00);  
   mySerial.write(0xc8);
   mySerial.write((byte)0x00);
-  mySerial.write(0x01);   // 0x0001 == spin left
+  mySerial.write(0x01);   
 }
 void spinRight() {
-  mySerial.write(137);   // DRIVE
-  mySerial.write((byte)0x00);   // 0x00c8 == 200
+  mySerial.write(137);   
+  mySerial.write((byte)0x00);  
   mySerial.write(0xc8);
   mySerial.write(0xff);
-  mySerial.write(0xff);   // 0xffff == -1 == spin right
+  mySerial.write(0xff);   
 }
 void stopRoomba() {
   byte j = 0x00;
   ledBlink();
-  mySerial.write(137);   // DRIVE
+  mySerial.write(137);
   mySerial.write(j);
   mySerial.write(j);
   mySerial.write(j);
