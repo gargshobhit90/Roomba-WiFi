@@ -1,4 +1,4 @@
-#Wirelessly-controlled iRobot Roomba
+#Wirelessly-controlled iRobot Roomba using an Arduino
  
 Control the movement of an iRobot Roomba using any device on the same WiFi connection. Roomba is connected to an Arduino Uno with WiShield that connects to the internet. Once a telnet connection with the Arduino is established, you can control the Roomba's movements without the hassles of cables! Controls are defined accoring to the standard WASD key combination.
 
