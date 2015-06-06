@@ -59,12 +59,14 @@ Note: At this point, Arduino and your PC can be disconnected.
 
 
 #Controls
-Key | Direction
-  w | forward
-  s | backward
-  a | left
-  d | right
-  q | stop
+
+| Key    | Direction |
+| ------ | ---------:|
+| w      | forward   |
+| s      | backward  |
+| a      | left      |
+| d      | right     |
+| q      | stop      |
 
 
 #Note
