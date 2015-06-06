@@ -24,6 +24,8 @@ With further enhancements, like the addition of camera streaming or a robotic ar
 
 I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would remain the same across platforms.
 
+For connecting wirelessly with the Arduino/Roomba, I used telnet on Terminal in MacOS.
+
 
 #Connections
 
@@ -52,9 +54,9 @@ I used Arduino IDE 1.6.4 on MacOS. The Arduino code, to my knowledge, would rema
 WiShield, attempts to connect to the specified WiFi network and gets 
 an IP address. 
 Note: At this point, Arduino and your PC can be disconnected. 
-2. Telnet to your device's IP address.
-3. Turn on Roomba. Press ? [return] to check availability.
-4. Press r to establish Arduino's connection with Roomba.
+2. Telnet to your device's IP address displayed on the Serial Monitor in the Arduino IDE. 
+3. Turn on Roomba. Press '? [return]' to check availability.
+4. Press r to send commands to establish Arduino's connection with Roomba.
 5. Play!
 
 
